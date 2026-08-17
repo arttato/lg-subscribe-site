@@ -1,4 +1,9 @@
 # Deploy อัตโนมัติไป GitHub Pages — รันทุกครั้งที่ push ไป branch main
+#
+# Base path คำนวณอัตโนมัติตามลำดับ:
+#   1. มีไฟล์ CNAME ใน repo root → ใช้ custom domain → base path = "/"
+#   2. ชื่อ repo ลงท้าย .github.io → เว็บอยู่ที่ root → base path = "/"
+#   3. repo ชื่ออื่น → เว็บอยู่ใต้ /REPO/ → base path = "/REPO/"
 name: Deploy to GitHub Pages
 
 on:
@@ -26,18 +31,32 @@ jobs:
           node-version: 20
           cache: npm
 
-      # คำนวณ base path: repo ชื่อ xxx.github.io → root, ชื่ออื่น → /REPO/
+      # คำนวณ base path (ดูคำอธิบายหัวไฟล์)
       - name: Compute base path
         run: |
-          REPO="${GITHUB_REPOSITORY#*/}"
-          if [[ "$REPO" == *.github.io ]]; then
+          if [ -f CNAME ]; then
+            echo "พบ CNAME (custom domain) → base path = /"
             echo "BASE_PATH=/" >> "$GITHUB_ENV"
           else
-            echo "BASE_PATH=/$REPO/" >> "$GITHUB_ENV"
+            REPO="${GITHUB_REPOSITORY#*/}"
+            if [[ "$REPO" == *.github.io ]]; then
+              echo "BASE_PATH=/" >> "$GITHUB_ENV"
+            else
+              echo "BASE_PATH=/$REPO/" >> "$GITHUB_ENV"
+            fi
           fi
 
       - run: npm ci
       - run: npm run build
+
+      # ถ้ามี custom domain (ไฟล์ CNAME) ให้ฝังเข้า dist ด้วย — GitHub Pages
+      # ต้องเจอ CNAME ในเนื้อหาที่ deploy ถึงจะผูกโดเมนได้
+      - name: Copy CNAME into dist
+        run: |
+          if [ -f CNAME ]; then
+            cp CNAME dist/CNAME
+            echo "คัดลอก CNAME → dist/CNAME"
+          fi
 
       - uses: actions/upload-pages-artifact@v3
         with:
