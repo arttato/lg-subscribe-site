@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <title>LG Subscribe</title>
+</head>
+<body>
+  <script>
+    // SPA fallback สำหรับ GitHub Pages: จำ route ที่เข้าไว้ แล้วกลับไปที่ index.html
+    // (main.tsx จะอ่าน sessionStorage และ restore path ให้ router ทำงานถูกต้อง)
+    sessionStorage.setItem('lg-sub-route', location.pathname + location.search + location.hash);
+    location.replace('./index.html');
+  </script>
+</body>
+</html>

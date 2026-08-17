@@ -1,0 +1,282 @@
+{
+  "meta": {
+    "title": "LG Subscribe — Monthly Rental of LG Appliances",
+    "description": "Rent LG appliances by the month, with care service by LG-certified technicians throughout your contract."
+  },
+  "common": {
+    "brand": "LG Subscribe",
+    "tagline": "Own it without the big upfront cost",
+    "nav": {
+      "home": "Home",
+      "products": "Products",
+      "plans": "Rental Plans",
+      "services": "Services",
+      "business": "For Business",
+      "about": "About Us",
+      "help": "Help Center",
+      "contact": "Contact"
+    },
+    "cta": {
+      "rent": "Rent Monthly",
+      "buy": "Buy Now",
+      "viewAll": "View All Products",
+      "applyPlan": "Apply for this Plan",
+      "backHome": "Back to Home",
+      "submit": "Send Message",
+      "subscribe": "Subscribe",
+      "chooseProduct": "Choose a Product",
+      "bookInstall": "Book Installation",
+      "checkArea": "Check Service Area",
+      "repair": "Request Repair",
+      "quote": "Request a Quote",
+      "start": "Get Started",
+      "talk": "Chat with Us",
+      "callCenter": "Call Center"
+    },
+    "labels": {
+      "starting": "Starting at",
+      "perMonth": "THB/month",
+      "rentable": "Rentable",
+      "onSale": "Promotion",
+      "sale": "Outright",
+      "model": "Model",
+      "all": "All",
+      "placeholder": "Sample",
+      "frontendOnly": "This form is not connected to a real system yet — it only shows a confirmation on this page."
+    },
+    "contract": {
+      "visit": "Visit",
+      "visitDesc": "LG technician service at home",
+      "self": "Self",
+      "selfDesc": "Parts delivered home, self-install",
+      "noservice": "No Service",
+      "noserviceDesc": "Warranty throughout contract"
+    },
+    "lang": {
+      "th": "ไทย",
+      "en": "English"
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "LG 38th Anniversary · Up to 15% off",
+      "title1": "Own LG appliances",
+      "titleAccent": "without the big upfront cost",
+      "subtitle": "Pay by the month, with care service by LG-certified technicians throughout your contract — water purifiers, air purifiers, washers, refrigerators, air conditioners, and TVs.",
+      "ctaProducts": "Choose a Product",
+      "ctaPlans": "View Rental Plans",
+      "stats": {
+        "products": "products to choose from",
+        "contract": "long-term contracts",
+        "install": "free installation",
+        "service": "LG care at home"
+      }
+    },
+    "categories": {
+      "title": "Choose what you need",
+      "subtitle": "Genuine LG products with full-service care",
+      "water": { "title": "Water Care", "desc": "LG PuriCare water purifiers — clean water for your whole home" },
+      "air": { "title": "Clean Air", "desc": "Air purifiers, air conditioners, and dehumidifiers" },
+      "appliances": { "title": "Appliances", "desc": "Refrigerators, washers, TVs, and much more" }
+    },
+    "featured": {
+      "title": "Popular Products",
+      "subtitle": "Monthly starting price — rent or buy outright"
+    },
+    "how": {
+      "title": "Getting started in 3 steps",
+      "subtitle": "From choosing a product to the day of installation",
+      "step1": { "title": "Choose a product", "desc": "Pick the LG appliance you need from the full range of genuine products." },
+      "step2": { "title": "Book free installation", "desc": "Our team schedules installation at your home — free of charge." },
+      "step3": { "title": "Enjoy with LG care", "desc": "Start using it right away, with care service by LG technicians for the whole contract." }
+    },
+    "testimonials": {
+      "title": "What customers say",
+      "subtitle": "Sample reviews (real content will be added later)",
+      "items": [
+        { "name": "Somchai", "role": "Water purifier member", "text": "Filters are replaced at home on schedule. I don't have to handle anything myself — very convenient." },
+        { "name": "Maneerat", "role": "Air purifier member", "text": "Small monthly payments, and LG Subscribe members get excellent care." },
+        { "name": "Sample Co., Ltd.", "role": "Business customer", "text": "Installed across our office with full care and a clear quotation." }
+      ]
+    },
+    "campaigns": {
+      "title": "This Month's Promotions",
+      "c1": { "title": "Buy 2, Get 1", "desc": "Subscribe to 2 air conditioners, get 1 air purifier free" },
+      "c2": { "title": "Only 149 THB in month 1", "desc": "Plus 50% off the following billing cycle" }
+    }
+  },
+  "products": {
+    "title": "All Products",
+    "subtitle": "Genuine LG products — rent monthly or buy outright",
+    "search": "Search name / model / code…",
+    "sort": { "label": "Sort", "default": "By category", "priceAsc": "Price: low → high", "priceDesc": "Price: high → low" },
+    "empty": "No products match your search",
+    "showing": "Showing {{count}} items",
+    "all": "All",
+    "comingSoon": "Full product page with advanced filters is coming soon"
+  },
+  "productDetail": {
+    "rentTab": "Rent Monthly",
+    "buyTab": "Buy Outright",
+    "plans": "Payment Plans",
+    "specs": "Specifications",
+    "backToProducts": "← Back to all products",
+    "notFound": "Product not found in the catalog",
+    "comingSoon": "Full specs and gallery are coming soon",
+    "features": "Key Features",
+    "specGroups": "All Specifications",
+    "sourceNote": "Specifications from the LG Thailand website",
+    "viewOnLg": "View on LG website"
+  },
+  "plans": {
+    "title": "Monthly Rental Plans",
+    "subtitle": "Choose a 5 / 6 / 7-year contract with the care service that suits you",
+    "visit": "Visit — LG technician service at home",
+    "self": "Self — parts delivered home, self-install",
+    "noservice": "No Service — warranty throughout the contract",
+    "calculator": "Rental Calculator",
+    "calcNote": "Enter a product's starting price to see the monthly cost for each contract",
+    "perMonth": "THB/month",
+    "totalContract": "Total over contract",
+    "comingSoon": "Full calculator and promotion details are coming soon",
+    "table": {
+      "title": "Contract Comparison",
+      "subtitle": "Details from the price list (contract terms)",
+      "mode": "Service mode",
+      "years": "Contract length",
+      "interval": "Service interval",
+      "includes": "What's included",
+      "appliesTo": "Applies to",
+      "noServiceNote": "No Service products: TVs, monitors, microwaves, sound bars, xboom"
+    },
+    "payment": {
+      "title": "Payment Methods",
+      "subtitle": "Choose what suits you — monthly billing, advance payment, or outright installments"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Free installation · home care service · warranty throughout the contract",
+    "install": { "title": "Installation", "desc": "Our team schedules installation at your home — free of charge" },
+    "care": { "title": "Care Service", "desc": "Machine cleaning / filter and part replacement on schedule per your contract" },
+    "warranty": { "title": "Warranty & Repair", "desc": "LG Service Center cares for you throughout the contract" },
+    "area": { "title": "Service Area Checker", "desc": "Enter your province/district to check if service is available in your area" },
+    "areaResultYes": "Service is available in your area ✓",
+    "areaResultNo": "Service is not yet available in this area (sample data)",
+    "booking": {
+      "title": "Book Free Installation",
+      "desc": "Fill in the form below — our team will call back to confirm the installation date",
+      "name": "Full name",
+      "phone": "Phone number",
+      "province": "Province",
+      "district": "District",
+      "address": "Installation address",
+      "date": "Preferred installation date",
+      "time": "Time slot",
+      "product": "Product type",
+      "note": "Notes",
+      "submit": "Book Installation",
+      "success": "Booking saved! Our team will contact you within 1 business day (sample — not connected to a real system yet)"
+    },
+    "careSchedule": {
+      "title": "Care Schedule",
+      "desc": "Sample care cycles per contract (Visit / Self)",
+      "visitTitle": "Visit — technician service at home",
+      "selfTitle": "Self — parts delivered home",
+      "row1": "Water purifier",
+      "row2": "Air purifier",
+      "row3": "Washer / Dryer",
+      "visitRow1": "Filter replacement on schedule · tank cleaning",
+      "visitRow2": "Filter cleaning/replacement on schedule",
+      "visitRow3": "Drum cleaning per service cycle",
+      "selfRow1": "Replacement filter kit delivered home",
+      "selfRow2": "Replacement filters delivered home",
+      "selfRow3": "Parts delivered per cycle"
+    },
+    "repair": {
+      "title": "Request Repair",
+      "desc": "Call LG Service Center to report an issue and schedule a repair (free home visit or drop-off service)",
+      "call": "Phone: 02-XXX-XXXX (sample)"
+    },
+    "comingSoon": "Full booking and area-check forms are coming soon"
+  },
+  "business": {
+    "title": "Solutions for Business",
+    "subtitle": "Drinking water and clean air for your office, with full care service",
+    "water": "Workplace water solutions",
+    "air": "Office air purification systems",
+    "fleet": "Multi-unit packages with discounts",
+    "quote": "Request a Quote",
+    "comingSoon": "Full business package details are coming soon"
+  },
+  "about": {
+    "title": "Our Story",
+    "subtitle": "LG Subscribe — monthly rental of LG appliances with expert care",
+    "why": { "title": "Why rent with LG Subscribe", "points": ["No big upfront payment — pay monthly", "Genuine LG products with full care throughout the contract", "Free installation and LG technicians at home", "Flexible contracts — choose 5 / 6 / 7 years"] },
+    "comingSoon": "Full content (news & campaigns) is coming soon"
+  },
+  "help": {
+    "title": "Help Center",
+    "subtitle": "Find answers about contracts, payments, installation, care, and warranty",
+    "faqTitle": "Frequently Asked Questions",
+    "faqSubtitle": "Real FAQs from the LG Thailand website — {{count}} questions from {{models}} models",
+    "faqSearch": "Search, e.g. filter, clean, sterilize, bluetooth…",
+    "faqEmpty": "No questions match your search — try another keyword",
+    "faqNote": "FAQs are pulled from the LG Thailand website (in Thai) — English version will be added later",
+    "faqShowAll": "Show all questions",
+    "repair": "Request Repair",
+    "callCenter": "Call Center",
+    "callHours": "Mon–Sun 08:00–20:00 (sample)",
+    "comingSoon": "Full FAQ set is coming soon"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Our team is ready to help — reach us through the channel that suits you",
+    "formTitle": "Send us a message",
+    "formSubject": "Topic",
+    "subjects": { "general": "General inquiry", "sales": "Subscribe", "service": "Service / Repair", "b2b": "Business" },
+    "formName": "Full name",
+    "formPhone": "Phone number",
+    "formMessage": "Message",
+    "formSuccess": "Message sent! (sample — not connected to a real system yet)",
+    "channels": { "title": "Contact channels", "line": "LINE @lgsubscribe", "fb": "Facebook", "ig": "Instagram", "email": "Email" },
+    "office": { "title": "Office", "address": "Office address (sample)" }
+  },
+  "legal": {
+    "privacyTitle": "Privacy Policy",
+    "termsTitle": "Terms of Service",
+    "template": "The full legal content will be drafted and updated later — this is a sample document",
+    "updated": "Last updated"
+  },
+  "footer": {
+    "about": "Monthly rental of LG appliances, with care service by LG-certified technicians throughout your contract.",
+    "colProducts": "Products",
+    "colService": "Services",
+    "colCompany": "Company",
+    "colContact": "Contact",
+    "linkWater": "Water Purifiers",
+    "linkAir": "Air Purifiers",
+    "linkAircon": "Air Conditioners",
+    "linkLaundry": "Washers / Dryers",
+    "linkFridge": "Refrigerators",
+    "linkTv": "Televisions",
+    "linkInstall": "Installation",
+    "linkCare": "Care Service",
+    "linkWarranty": "Warranty & Repair",
+    "linkArea": "Check Service Area",
+    "linkStory": "Our Story",
+    "linkWhy": "Why Rent",
+    "linkCampaign": "Promotions",
+    "linkBusiness": "For Business",
+    "newsletter": "Get promotions before anyone else",
+    "newsletterOk": "Subscribed successfully (sample)",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "rights": "All rights reserved"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "desc": "The page you're looking for may have moved or no longer exists",
+    "cta": "Back to Home"
+  }
+}

@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+/* ===== Design tokens (LG Subscribe) ===== */
+@theme {
+  --font-sans: "Noto Sans Thai", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  /* สีหลัก — LG Red */
+  --color-primary: #a50034;
+  --color-primary-dark: #7d0028;
+  --color-primary-foreground: #ffffff;
+
+  /* สีรอง — เขียวน้ำเงินสดสะอาด */
+  --color-secondary: #0b7a67;
+  --color-secondary-dark: #085c4e;
+  --color-secondary-foreground: #ffffff;
+
+  /* สีเสริม/เน้น */
+  --color-accent: #fde8ee;
+  --color-accent-foreground: #a50034;
+
+  /* พื้นฐาน */
+  --color-background: #ffffff;
+  --color-foreground: #111827;
+  --color-card: #ffffff;
+  --color-card-foreground: #111827;
+  --color-muted: #f3f4f6;
+  --color-muted-foreground: #6b7280;
+  --color-border: #e5e7eb;
+  --color-input: #e5e7eb;
+
+  /* เงา */
+  --shadow-premium: 0 10px 30px -12px rgb(17 24 39 / 0.18);
+  --shadow-premium-lg: 0 24px 60px -20px rgb(17 24 39 / 0.25);
+
+  /* แอนิเมชัน */
+  --animate-fade-up: fade-up 0.55s ease both;
+  --animate-fade-in: fade-in 0.4s ease both;
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* ===== Base ===== */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  @apply bg-background text-foreground antialiased;
+  font-family: var(--font-sans);
+}
+::selection {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+/* ===== Utilities ===== */
+.container-page {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+.section {
+  @apply py-14 md:py-20;
+}
+.gradient-hero {
+  background:
+    radial-gradient(1100px 500px at 85% -10%, rgb(165 0 52 / 0.12), transparent 60%),
+    radial-gradient(800px 400px at -10% 110%, rgb(11 122 103 / 0.10), transparent 55%),
+    linear-gradient(180deg, #fff 0%, #faf6f7 100%);
+}
+.gradient-primary {
+  background: linear-gradient(135deg, #a50034 0%, #7d0028 100%);
+}
+.text-gradient {
+  background: linear-gradient(120deg, #a50034, #c41e52);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
